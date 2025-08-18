@@ -1,0 +1,7 @@
+.wc-block-components-payment-method-icons .wc-block-components-payment-method-icon {
+    max-width: 128px !important;
+}
+#save_card input.wc-block-components-checkbox__input:disabled ~ * {
+    opacity: 0.5;
+    pointer-events: none;
+}

@@ -1,0 +1,12 @@
+label[for=woocommerce_paysafe_save_tokens_CARD] {
+    text-align: right;
+}
+label[for=woocommerce_paysafe_cvv_tokens_CARD] {
+    text-align: right;
+}
+label[for=woocommerce_paysafe_payment_integration_type] {
+    text-align: right;
+}
+label[for=woocommerce_paysafe_payment_action] {
+    text-align: right;
+}

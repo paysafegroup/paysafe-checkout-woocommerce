@@ -1,0 +1,1498 @@
+# Copyright (C) 2025 Paysafe
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Paysafe Checkout 2.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/paysafe-checkout\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-08-13T07:30:00+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: paysafe-checkout\n"
+
+#. Plugin Name of the plugin
+#: paysafe-checkout.php
+#: includes/gateway/class-wc-gateway-paysafe-base.php:4069
+#: includes/gateway/class-wc-gateway-paysafe.php:43
+#: paysafe-checkout.php:105
+#: settings/PaysafeSettings.php:157
+msgid "Paysafe Checkout"
+msgstr "Paysafe Checkout"
+
+#. Plugin URI of the plugin
+#: paysafe-checkout.php
+msgid "https://developer.paysafe.com/en/api-docs/shopping-carts/woocommerce-official/"
+msgstr "https://developer.paysafe.com/en/api-docs/shopping-carts/woocommerce-official/"
+
+#. Description of the plugin
+#: paysafe-checkout.php
+msgid "Accept payments on your WooCommerce store while minimizing your security and PCI compliance requirements."
+msgstr "Accept payments on your WooCommerce store while minimizing your security and PCI compliance requirements."
+
+#. Author of the plugin
+#: paysafe-checkout.php
+#: settings/PaysafeSettings.php:176
+msgid "Paysafe"
+msgstr "Paysafe"
+
+#. Author URI of the plugin
+#: paysafe-checkout.php
+msgid "https://www.paysafe.com/"
+msgstr "https://www.paysafe.com/"
+
+#: includes/api/class-wc-api-paysafe-card.php:29
+#: includes/api/class-wc-api-paysafe-card.php:39
+msgid "Void payment failed"
+msgstr "Void payment failed"
+
+#: includes/api/class-wc-api-paysafe-card.php:66
+#: includes/api/class-wc-api-paysafe-card.php:76
+msgid "Settle payment failed"
+msgstr "Settle payment failed"
+
+#: includes/api/class-wc-api-paysafe-card.php:103
+#: includes/api/class-wc-api-paysafe-card.php:113
+msgid "Refund payment failed"
+msgstr "Refund payment failed"
+
+#: includes/api/class-wc-api-paysafe-card.php:139
+#: includes/api/class-wc-api-paysafe-card.php:149
+msgid "Process payment failed"
+msgstr "Process payment failed"
+
+#: includes/api/class-wc-api-paysafe-card.php:175
+#: includes/api/class-wc-api-paysafe-card.php:185
+msgid "Verify payment failed"
+msgstr "Verify payment failed"
+
+#: includes/api/class-wc-api-paysafe-card.php:214
+#: includes/api/class-wc-api-paysafe-card.php:227
+msgid "Get customer single use token failed"
+msgstr "Get customer single use token failed"
+
+#: includes/api/class-wc-api-paysafe-card.php:256
+#: includes/api/class-wc-api-paysafe-card.php:269
+msgid "Create paysafe customer failed"
+msgstr "Create paysafe customer failed"
+
+#. translators: %s is replaced by the message
+#: includes/api/class-wc-api-paysafe-card.php:295
+#: includes/api/class-wc-api-paysafe-card.php:318
+msgid "Paysafe Checkout: Delete paysafe customer exception %s"
+msgstr "Paysafe Checkout: Delete paysafe customer exception %s"
+
+#: includes/api/class-wc-api-paysafe-card.php:306
+#: includes/api/class-wc-api-paysafe-card.php:327
+msgid "Delete paysafe customer failed"
+msgstr "Delete paysafe customer failed"
+
+#: includes/api/class-wc-api-paysafe-card.php:358
+msgid "Create paysafe customer multi-use token failed"
+msgstr "Create paysafe customer multi-use token failed"
+
+#: includes/api/class-wc-api-paysafe-card.php:371
+msgid "Create paysafe multi-use token failed"
+msgstr "Create paysafe multi-use token failed"
+
+#: includes/api/class-wc-api-paysafe-card.php:401
+#: includes/api/class-wc-api-paysafe-card.php:414
+msgid "Delete paysafe token failed"
+msgstr "Delete paysafe token failed"
+
+#: includes/api/class-wc-api-paysafe-card.php:444
+#: includes/api/class-wc-api-paysafe-card.php:457
+msgid "Get customer data failed"
+msgstr "Get customer data failed"
+
+#: includes/api/class-wc-api-paysafe-card.php:487
+#: includes/api/class-wc-api-paysafe-card.php:501
+msgid "Get customer data by merchant customer id failed"
+msgstr "Get customer data by merchant customer id failed"
+
+#: includes/api/class-wc-api-paysafe-card.php:531
+#: includes/api/class-wc-api-paysafe-card.php:545
+msgid "Get payment handle by reference failed"
+msgstr "Get payment handle by reference failed"
+
+#: includes/api/class-wc-api-paysafe-card.php:575
+#: includes/api/class-wc-api-paysafe-card.php:589
+msgid "Get Paysafe settlement data by settlement ID failed"
+msgstr "Get Paysafe settlement data by settlement ID failed"
+
+#: includes/api/class-wc-api-paysafe-card.php:619
+#: includes/api/class-wc-api-paysafe-card.php:633
+msgid "Get Paysafe payment data by payment ID failed"
+msgstr "Get Paysafe payment data by payment ID failed"
+
+#: includes/api/class-wc-api-paysafe-card.php:663
+#: includes/api/class-wc-api-paysafe-card.php:676
+msgid "Cancel Paysafe settlement failed"
+msgstr "Cancel Paysafe settlement failed"
+
+#: includes/api/class-wc-api-paysafe-card.php:706
+#: includes/api/class-wc-api-paysafe-card.php:716
+msgid "Process exchange single use token to multi use failed"
+msgstr "Process exchange single use token to multi use failed"
+
+#: includes/api/class-wc-api-paysafe-general.php:73
+#: includes/api/class-wc-api-paysafe-general.php:83
+msgid "Auth key invalid"
+msgstr "Auth key invalid"
+
+#: includes/api/class-wc-api-paysafe-general.php:112
+#: includes/api/class-wc-api-paysafe-general.php:122
+msgid "Get payment methods failed"
+msgstr "Get payment methods failed"
+
+#: includes/gateway/class-wc-gateway-apple-pay.php:31
+#: includes/gateway/class-wc-gateway-paysafe-base.php:4063
+#: settings/PaysafeSettings.php:106
+msgid "Apple Pay"
+msgstr "Apple Pay"
+
+#: includes/gateway/class-wc-gateway-apple-pay.php:36
+msgid "Easy and secure payments with Apple Pay"
+msgstr "Easy and secure payments with Apple Pay"
+
+#: includes/gateway/class-wc-gateway-google-pay.php:31
+#: includes/gateway/class-wc-gateway-paysafe-base.php:4064
+#: settings/PaysafeSettings.php:113
+msgid "Google Pay"
+msgstr "Google Pay"
+
+#: includes/gateway/class-wc-gateway-google-pay.php:36
+msgid "Easy and secure payments with Google Pay"
+msgstr "Easy and secure payments with Google Pay"
+
+#: includes/gateway/class-wc-gateway-paysafe-base.php:278
+msgid "Payment successful"
+msgstr "Payment successful"
+
+#: includes/gateway/class-wc-gateway-paysafe-base.php:409
+msgid "Test mode active! Please use test card numbers only, not real card details."
+msgstr "Test mode active! Please use test card numbers only, not real card details."
+
+#: includes/gateway/class-wc-gateway-paysafe-base.php:416
+msgid "Payment methods will be available only after you successfully enter your merchant credentials and save the settings."
+msgstr "Payment methods will be available only after you successfully enter your merchant credentials and save the settings."
+
+#: includes/gateway/class-wc-gateway-paysafe-base.php:594
+#: includes/gateway/class-wc-gateway-paysafe-skrill.php:80
+msgid "Skrill details subject"
+msgstr "Skrill details subject"
+
+#: includes/gateway/class-wc-gateway-paysafe-base.php:595
+#: includes/gateway/class-wc-gateway-paysafe-skrill.php:81
+msgid "Skrill details message"
+msgstr "Skrill details message"
+
+#. translators: %s is replaced by the name of the payment method
+#: includes/gateway/class-wc-gateway-paysafe-base.php:1028
+msgid "Payment method changed to %s."
+msgstr "Payment method changed to %s."
+
+#. translators: %s is replaced by the name of the payment method
+#: includes/gateway/class-wc-gateway-paysafe-base.php:1040
+#: includes/gateway/class-wc-gateway-paysafe-base.php:4320
+msgid "Payment initiated with payment method %s."
+msgstr "Payment initiated with payment method %s."
+
+#: includes/gateway/class-wc-gateway-paysafe-base.php:1130
+msgid "Payment method changed successfully"
+msgstr "Payment method changed successfully"
+
+#. translators: %1$s is replaced by currency and amount of the authorization
+#: includes/gateway/class-wc-gateway-paysafe-base.php:1346
+msgid "Funds capture of %1$s completed successfully."
+msgstr "Funds capture of %1$s completed successfully."
+
+#. translators: %2$s is replaced by ID of the settlement
+#: includes/gateway/class-wc-gateway-paysafe-base.php:1349
+msgid "Settlement ID: %2$s. "
+msgstr "Settlement ID: %2$s. "
+
+#: includes/gateway/class-wc-gateway-paysafe-base.php:1351
+#: includes/gateway/class-wc-gateway-paysafe-base.php:2833
+msgid "To cancel the settlement, change the order status to “Cancelled”."
+msgstr "To cancel the settlement, change the order status to “Cancelled”."
+
+#: includes/gateway/class-wc-gateway-paysafe-base.php:1355
+#: includes/gateway/class-wc-gateway-paysafe-base.php:2842
+msgid "To issue a refund, click the “Refund” button and select “Refund via Paysafe”."
+msgstr "To issue a refund, click the “Refund” button and select “Refund via Paysafe”."
+
+#: includes/gateway/class-wc-gateway-paysafe-base.php:1359
+#: includes/gateway/class-wc-gateway-paysafe-base.php:2847
+msgid "Note: Refunds are available only after the payment has been captured and fully settled."
+msgstr "Note: Refunds are available only after the payment has been captured and fully settled."
+
+#: includes/gateway/class-wc-gateway-paysafe-base.php:1379
+msgid "Payment is processing."
+msgstr "Payment is processing."
+
+#. translators: %s is replaced by ID of the settlement
+#: includes/gateway/class-wc-gateway-paysafe-base.php:1381
+#: includes/gateway/class-wc-gateway-paysafe-base.php:3834
+msgid "Payment ID: %s."
+msgstr "Payment ID: %s."
+
+#: includes/gateway/class-wc-gateway-paysafe-base.php:1382
+msgid "If you wish to refund the payment, you must change the order status to Cancelled."
+msgstr "If you wish to refund the payment, you must change the order status to Cancelled."
+
+#: includes/gateway/class-wc-gateway-paysafe-base.php:1386
+msgid "Refunds are not available until the payment is fully captured until the transaction is settled."
+msgstr "Refunds are not available until the payment is fully captured until the transaction is settled."
+
+#. translators: %s is replaced by status returned
+#: includes/gateway/class-wc-gateway-paysafe-base.php:1503
+msgid "Process Payment call returned unknown status %s"
+msgstr "Process Payment call returned unknown status %s"
+
+#. translators: %s is replaced by currency and amount of the authorization
+#: includes/gateway/class-wc-gateway-paysafe-base.php:1518
+msgid "Payment authorization of %s successfully completed."
+msgstr "Payment authorization of %s successfully completed."
+
+#. translators: %s is replaced by ID of the authorization
+#: includes/gateway/class-wc-gateway-paysafe-base.php:1520
+msgid "Authorization ID: %s."
+msgstr "Authorization ID: %s."
+
+#: includes/gateway/class-wc-gateway-paysafe-base.php:1521
+msgid "To complete the payment, please change the order status to “Processing” - this will capture the authorized amount."
+msgstr "To complete the payment, please change the order status to “Processing” - this will capture the authorized amount."
+
+#: includes/gateway/class-wc-gateway-paysafe-base.php:1522
+msgid "If you want to capture only part of the authorized amount, please refer to your Merchant Manual."
+msgstr "If you want to capture only part of the authorized amount, please refer to your Merchant Manual."
+
+#: includes/gateway/class-wc-gateway-paysafe-base.php:1523
+msgid "If you want to cancel the payment, change the order status to “Cancelled”, which will void the authorization."
+msgstr "If you want to cancel the payment, change the order status to “Cancelled”, which will void the authorization."
+
+#: includes/gateway/class-wc-gateway-paysafe-base.php:1527
+msgid "Note: Refunds are only available after the payment has been captured and fully settled."
+msgstr "Note: Refunds are only available after the payment has been captured and fully settled."
+
+#. translators: %s is replaced by the message
+#: includes/gateway/class-wc-gateway-paysafe-base.php:1603
+msgid "ERROR processing payment: %s"
+msgstr "ERROR processing payment: %s"
+
+#: includes/gateway/class-wc-gateway-paysafe-base.php:1709
+msgid "The order status has been changed to Refunded."
+msgstr "The order status has been changed to Refunded."
+
+#: includes/gateway/class-wc-gateway-paysafe-base.php:1710
+msgid "You need to manually refund the amount to the customer through your Paysafe Optic portal."
+msgstr "You need to manually refund the amount to the customer through your Paysafe Optic portal."
+
+#: includes/gateway/class-wc-gateway-paysafe-base.php:1714
+msgid "Next time you can use the \"Refund\" button and then select \"Refund via Paysafe\""
+msgstr "Next time you can use the \"Refund\" button and then select \"Refund via Paysafe\""
+
+#: includes/gateway/class-wc-gateway-paysafe-base.php:1732
+#: includes/gateway/class-wc-gateway-paysafe-base.php:1747
+#: includes/gateway/class-wc-gateway-paysafe-base.php:1759
+msgid "The order status has been changed to Cancelled."
+msgstr "The order status has been changed to Cancelled."
+
+#: includes/gateway/class-wc-gateway-paysafe-base.php:1733
+msgid "You need to manually refund the amount to the customer through your Paysafe Admin."
+msgstr "You need to manually refund the amount to the customer through your Paysafe Admin."
+
+#: includes/gateway/class-wc-gateway-paysafe-base.php:1737
+msgid "Next time you can use the Refund button and then select Refund via Paysafe"
+msgstr "Next time you can use the Refund button and then select Refund via Paysafe"
+
+#. translators: %s is replaced by the settlement id
+#: includes/gateway/class-wc-gateway-paysafe-base.php:1750
+msgid "The settlement process was cancelled with settlement ID: %s ."
+msgstr "The settlement process was cancelled with settlement ID: %s ."
+
+#. translators: %s is replaced by the settlement id
+#: includes/gateway/class-wc-gateway-paysafe-base.php:1765
+msgid "The cancel settlement cannot be completed for order with settlement ID: %s ."
+msgstr "The cancel settlement cannot be completed for order with settlement ID: %s ."
+
+#. translators: %s is replaced by an email address
+#: includes/gateway/class-wc-gateway-paysafe-base.php:2204
+msgid "Are you sure you want to delete your Paysafe profile registered with %s?"
+msgstr "Are you sure you want to delete your Paysafe profile registered with %s?"
+
+#: includes/gateway/class-wc-gateway-paysafe-base.php:2219
+msgid "Delete all payment data (Paysafe Checkout)"
+msgstr "Delete all payment data (Paysafe Checkout)"
+
+#: includes/gateway/class-wc-gateway-paysafe-base.php:2433
+msgid "Refund process failed - No settlement found."
+msgstr "Refund process failed - No settlement found."
+
+#: includes/gateway/class-wc-gateway-paysafe-base.php:2441
+msgid "Settlement id is missing"
+msgstr "Settlement id is missing"
+
+#: includes/gateway/class-wc-gateway-paysafe-base.php:2487
+msgid "Refund error: refund has returned unknown status."
+msgstr "Refund error: refund has returned unknown status."
+
+#. translators: Refund finished message. 1: Currency used, 2: Refunded amount, 3: Refund ID.
+#: includes/gateway/class-wc-gateway-paysafe-base.php:2497
+msgid "Refunded %1$s %2$s. Refund ID: %3$s"
+msgstr "Refunded %1$s %2$s. Refund ID: %3$s"
+
+#. translators: Refund finished message. 1: Refunded amount, 2: Currency used, 3: Refund ID.
+#: includes/gateway/class-wc-gateway-paysafe-base.php:2501
+msgid "Partially refunded %1$s %2$s. Refund ID: %3$s"
+msgstr "Partially refunded %1$s %2$s. Refund ID: %3$s"
+
+#. translators: %s is replaced by the message
+#: includes/gateway/class-wc-gateway-paysafe-base.php:2533
+msgid "Automatic refund processing failed with message: %s"
+msgstr "Automatic refund processing failed with message: %s"
+
+#: includes/gateway/class-wc-gateway-paysafe-base.php:2571
+msgid "Paysafe Checkout: Void payment failed - Void not allowed for this order."
+msgstr "Paysafe Checkout: Void payment failed - Void not allowed for this order."
+
+#: includes/gateway/class-wc-gateway-paysafe-base.php:2591
+msgid "Paysafe Checkout: Void payment failed - No payment ID found."
+msgstr "Paysafe Checkout: Void payment failed - No payment ID found."
+
+#: includes/gateway/class-wc-gateway-paysafe-base.php:2633
+msgid "Void error: void has returned unknown status."
+msgstr "Void error: void has returned unknown status."
+
+#. translators: %s is replaced by the currency and void amount
+#: includes/gateway/class-wc-gateway-paysafe-base.php:2642
+msgid "The remaining %s from the original authorization has been automatically voided."
+msgstr "The remaining %s from the original authorization has been automatically voided."
+
+#: includes/gateway/class-wc-gateway-paysafe-base.php:2646
+msgid "The customer will see the unused funds released back to their card shortly."
+msgstr "The customer will see the unused funds released back to their card shortly."
+
+#. translators: %s is replaced by the currency and void amount
+#: includes/gateway/class-wc-gateway-paysafe-base.php:2649
+#: includes/gateway/class-wc-gateway-paysafe-base.php:2678
+msgid "The authorization of %s has been successfully voided."
+msgstr "The authorization of %s has been successfully voided."
+
+#. translators: %s is replaced by the currency and void amount
+#: includes/gateway/class-wc-gateway-paysafe-base.php:2670
+msgid "We were unable to void the remaining %s from the original authorization."
+msgstr "We were unable to void the remaining %s from the original authorization."
+
+#: includes/gateway/class-wc-gateway-paysafe-base.php:2674
+msgid "However, this is not an issue - the unused portion of the funds will be automatically released by the customer’s bank."
+msgstr "However, this is not an issue - the unused portion of the funds will be automatically released by the customer’s bank."
+
+#: includes/gateway/class-wc-gateway-paysafe-base.php:2675
+msgid "Please note that depending on the bank, it may take up to 7 business days for the customer to see the funds available again on their card."
+msgstr "Please note that depending on the bank, it may take up to 7 business days for the customer to see the funds available again on their card."
+
+#: includes/gateway/class-wc-gateway-paysafe-base.php:2718
+msgid "Paysafe Checkout: Settlement process failed - Settlement not allowed for this order."
+msgstr "Paysafe Checkout: Settlement process failed - Settlement not allowed for this order."
+
+#: includes/gateway/class-wc-gateway-paysafe-base.php:2737
+msgid "Paysafe Checkout: Settlement process failed - No payment ID found."
+msgstr "Paysafe Checkout: Settlement process failed - No payment ID found."
+
+#: includes/gateway/class-wc-gateway-paysafe-base.php:2792
+msgid "Settlement error: settlement has returned unknown status."
+msgstr "Settlement error: settlement has returned unknown status."
+
+#. translators: %s is replaced by the currency and the amount captured
+#: includes/gateway/class-wc-gateway-paysafe-base.php:2806
+msgid "Funds capture of %s started."
+msgstr "Funds capture of %s started."
+
+#. translators: %s is replaced by the Settlement ID
+#: includes/gateway/class-wc-gateway-paysafe-base.php:2808
+msgid "Settlement ID: %s"
+msgstr "Settlement ID: %s"
+
+#. translators: %s is replaced by the Settlement ID
+#: includes/gateway/class-wc-gateway-paysafe-base.php:2826
+msgid "Partial funds capture of %s completed successfully."
+msgstr "Partial funds capture of %s completed successfully."
+
+#. translators: %s is replaced by the Settlement ID
+#: includes/gateway/class-wc-gateway-paysafe-base.php:2828
+msgid "Funds capture of %s completed successfully."
+msgstr "Funds capture of %s completed successfully."
+
+#. translators: %s is replaced by the Settlement ID
+#: includes/gateway/class-wc-gateway-paysafe-base.php:2832
+msgid "Settlement ID: %s."
+msgstr "Settlement ID: %s."
+
+#: includes/gateway/class-wc-gateway-paysafe-base.php:2838
+msgid "To issue a refund for the captured amount, click the “Refund” button and select “Refund via Paysafe”."
+msgstr "To issue a refund for the captured amount, click the “Refund” button and select “Refund via Paysafe”."
+
+#. translators: %s is replaced by the message
+#: includes/gateway/class-wc-gateway-paysafe-base.php:2879
+msgid "Paysafe settlement failed: %s"
+msgstr "Paysafe settlement failed: %s"
+
+#: includes/gateway/class-wc-gateway-paysafe-base.php:2932
+msgid "Get Customer Single Use Token: operation has returned unknown status."
+msgstr "Get Customer Single Use Token: operation has returned unknown status."
+
+#: includes/gateway/class-wc-gateway-paysafe-base.php:3090
+#: includes/gateway/class-wc-gateway-paysafe-base.php:3138
+#: includes/gateway/class-wc-gateway-paysafe-base.php:3241
+msgid "Payment failed with the current payment option."
+msgstr "Payment failed with the current payment option."
+
+#. translators: %s is replaced by ID of the payment handle
+#: includes/gateway/class-wc-gateway-paysafe-base.php:3161
+msgid "Payment with saved payment method token"
+msgstr "Payment with saved payment method token"
+
+#: includes/gateway/class-wc-gateway-paysafe-base.php:3555
+#: assets/js/frontend/blocks-apple_pay.js:556
+#: assets/js/frontend/blocks-google_pay.js:483
+#: assets/js/frontend/blocks-neteller.js:431
+#: assets/js/frontend/blocks-paysafecard.js:432
+#: assets/js/frontend/blocks-paysafecash.js:432
+#: assets/js/frontend/blocks-skrill.js:10320
+#: resources/js/frontend/apple_pay.js:492
+#: resources/js/frontend/google_pay.js:398
+#: resources/js/frontend/neteller.js:330
+#: resources/js/frontend/paysafecard.js:331
+#: resources/js/frontend/paysafecash.js:331
+#: resources/js/frontend/skrill.js:334
+#: assets/js/frontend/blocks-apple_pay.js:547
+#: assets/js/frontend/blocks-google_pay.js:453
+#: assets/js/frontend/blocks-neteller.js:385
+#: assets/js/frontend/blocks-paysafecard.js:386
+#: assets/js/frontend/blocks-paysafecash.js:386
+#: assets/js/frontend/blocks-skrill.js:11248
+msgid "Paysafe Checkout is in TEST mode. Use the built-in simulator to test payments."
+msgstr "Paysafe Checkout is in TEST mode. Use the built-in simulator to test payments."
+
+#: includes/gateway/class-wc-gateway-paysafe-base.php:3765
+msgid "Payment failed - webhook notification"
+msgstr "Payment failed - webhook notification"
+
+#: includes/gateway/class-wc-gateway-paysafe-base.php:3781
+msgid "Payment was cancelled - webhook notification"
+msgstr "Payment was cancelled - webhook notification"
+
+#: includes/gateway/class-wc-gateway-paysafe-base.php:3795
+msgid "Payment expired - webhook notification"
+msgstr "Payment expired - webhook notification"
+
+#: includes/gateway/class-wc-gateway-paysafe-base.php:3832
+msgid "Payment successfully completed."
+msgstr "Payment successfully completed."
+
+#: includes/gateway/class-wc-gateway-paysafe-base.php:3835
+msgid "If you wish to cancel the payment, you must change the order status to Cancelled."
+msgstr "If you wish to cancel the payment, you must change the order status to Cancelled."
+
+#: includes/gateway/class-wc-gateway-paysafe-base.php:3839
+msgid "To process a refund, first click the \\\"Refund\\\" button, then select \\\"Refunds via Paysafe\\\"."
+msgstr "To process a refund, first click the \\\"Refund\\\" button, then select \\\"Refunds via Paysafe\\\"."
+
+#: includes/gateway/class-wc-gateway-paysafe-base.php:3843
+msgid "Refunds are not available until the payment is fully captured and the transaction is settled."
+msgstr "Refunds are not available until the payment is fully captured and the transaction is settled."
+
+#: includes/gateway/class-wc-gateway-paysafe-base.php:3871
+msgid "Settlement failed - webhook notification"
+msgstr "Settlement failed - webhook notification"
+
+#: includes/gateway/class-wc-gateway-paysafe-base.php:3887
+msgid "Settlement was cancelled - webhook notification"
+msgstr "Settlement was cancelled - webhook notification"
+
+#: includes/gateway/class-wc-gateway-paysafe-base.php:4062
+#: includes/gateway/class-wc-gateway-paysafe.php:36
+msgid "Credit/Debit Cards"
+msgstr "Credit/Debit Cards"
+
+#: includes/gateway/class-wc-gateway-paysafe-base.php:4065
+#: includes/gateway/class-wc-gateway-paysafe-skrill.php:31
+#: settings/PaysafeSettings.php:120
+msgid "Skrill"
+msgstr "Skrill"
+
+#: includes/gateway/class-wc-gateway-paysafe-base.php:4066
+#: includes/gateway/class-wc-gateway-paysafe-neteller.php:31
+#: settings/PaysafeSettings.php:122
+msgid "Neteller"
+msgstr "Neteller"
+
+#: includes/gateway/class-wc-gateway-paysafe-base.php:4067
+#: includes/gateway/class-wc-gateway-paysafe-cash.php:31
+#: settings/PaysafeSettings.php:138
+msgid "PaysafeCash"
+msgstr "PaysafeCash"
+
+#: includes/gateway/class-wc-gateway-paysafe-base.php:4068
+#: includes/gateway/class-wc-gateway-paysafe-card.php:31
+#: settings/PaysafeSettings.php:124
+msgid "PaysafeCard"
+msgstr "PaysafeCard"
+
+#. translators: %s is replaced by ID of the payment handle
+#: includes/gateway/class-wc-gateway-paysafe-base.php:4325
+msgid "Payment handle created. Payment handle ID: %s"
+msgstr "Payment handle created. Payment handle ID: %s"
+
+#. translators: %s is replaced by status returned
+#: includes/gateway/class-wc-gateway-paysafe-base.php:4617
+msgid "Verification call returned unknown status %s"
+msgstr "Verification call returned unknown status %s"
+
+#. translators: %s is replaced by the message
+#: includes/gateway/class-wc-gateway-paysafe-base.php:4648
+msgid "ERROR payment verification: %s"
+msgstr "ERROR payment verification: %s"
+
+#: includes/gateway/class-wc-gateway-paysafe-card.php:37
+msgid "Easy and secure payments with PaysafeCard"
+msgstr "Easy and secure payments with PaysafeCard"
+
+#: includes/gateway/class-wc-gateway-paysafe-cash.php:37
+msgid "Easy and secure payments with PaysafeCash"
+msgstr "Easy and secure payments with PaysafeCash"
+
+#: includes/gateway/class-wc-gateway-paysafe-neteller.php:37
+msgid "Easy and secure payments with Neteller"
+msgstr "Easy and secure payments with Neteller"
+
+#: includes/gateway/class-wc-gateway-paysafe-skrill.php:36
+msgid "Easy and secure payments with Skrill"
+msgstr "Easy and secure payments with Skrill"
+
+#: includes/gateway/class-wc-gateway-paysafe.php:45
+msgid "Accept card payments on your WooCommerce store while minimising your security and PCI compliance requirements."
+msgstr "Accept card payments on your WooCommerce store while minimising your security and PCI compliance requirements."
+
+#: includes/gateway/class-wc-gateway-paysafe.php:71
+msgid "An error occurred, please try again!"
+msgstr "An error occurred, please try again!"
+
+#: includes/gateway/class-wc-gateway-paysafe.php:129
+msgid "The Public API Key is invalid."
+msgstr "The Public API Key is invalid."
+
+#: includes/gateway/class-wc-gateway-paysafe.php:130
+#: includes/gateway/class-wc-gateway-paysafe.php:144
+msgid "Please make sure you have copied it correctly from your Paysafe Merchant Portal (Optic or Netbanx)."
+msgstr "Please make sure you have copied it correctly from your Paysafe Merchant Portal (Optic or Netbanx)."
+
+#: includes/gateway/class-wc-gateway-paysafe.php:134
+#: includes/gateway/class-wc-gateway-paysafe.php:148
+msgid "For detailed instructions, refer to the Merchant Guide."
+msgstr "For detailed instructions, refer to the Merchant Guide."
+
+#: includes/gateway/class-wc-gateway-paysafe.php:143
+msgid "The Private API Key is invalid."
+msgstr "The Private API Key is invalid."
+
+#. translators: %s is replaced by the message
+#: includes/gateway/class-wc-gateway-paysafe.php:175
+msgid "ERROR: %s"
+msgstr "ERROR: %s"
+
+#: includes/gateway/class-wc-gateway-paysafe.php:433
+msgid "Payment method description is not set"
+msgstr "Payment method description is not set"
+
+#: includes/gateway/class-wc-gateway-paysafe.php:762
+msgid "Create Paysafe Customer failed"
+msgstr "Create Paysafe Customer failed"
+
+#: includes/gateway/class-wc-gateway-paysafe.php:783
+msgid "Create Paysafe Customer with Add Payment Method failed due to missing multi-use payment handle"
+msgstr "Create Paysafe Customer with Add Payment Method failed due to missing multi-use payment handle"
+
+#: includes/gateway/class-wc-gateway-paysafe.php:876
+msgid "Add paysafe payment method failed"
+msgstr "Add paysafe payment method failed"
+
+#: paysafe-checkout.php:99
+msgid "Sorry ! In order to use WooCommerce Paysafe Checkout plugin, you need to install and activate the WooCommerce plugin."
+msgstr "Sorry ! In order to use WooCommerce Paysafe Checkout plugin, you need to install and activate the WooCommerce plugin."
+
+#: paysafe-checkout.php:293
+msgid "Settings"
+msgstr "Settings"
+
+#: paysafe-checkout.php:333
+msgid "Payment methods"
+msgstr "Payment methods"
+
+#: resources/html/checkout/hosted-payment-form.php:10
+#: resources/html/my-account/payment-methods/add-paysafe-payment-method-form.php:72
+msgid "Card Holder Name"
+msgstr "Card Holder Name"
+
+#: resources/html/checkout/hosted-payment-form.php:12
+#: resources/html/my-account/payment-methods/add-paysafe-payment-method-form.php:74
+msgid "Card holder name"
+msgstr "Card holder name"
+
+#: resources/html/checkout/hosted-payment-form.php:14
+msgid "Enter your name as it's written on the card"
+msgstr "Enter your name as it's written on the card"
+
+#: resources/html/checkout/hosted-payment-form.php:15
+#: resources/html/my-account/payment-methods/add-paysafe-payment-method-form.php:77
+msgid "Card Number"
+msgstr "Card Number"
+
+#: resources/html/checkout/hosted-payment-form.php:20
+#: resources/html/my-account/payment-methods/add-paysafe-payment-method-form.php:82
+msgid "Expiry Date"
+msgstr "Expiry Date"
+
+#: resources/html/checkout/hosted-payment-form.php:25
+#: resources/html/checkout/hosted-payment-form.php:29
+#: resources/html/my-account/payment-methods/add-paysafe-payment-method-form.php:87
+#: resources/html/my-account/payment-methods/add-paysafe-payment-method-form.php:91
+#: assets/js/frontend/blocks-paysafe.js:948
+#: resources/js/frontend/paysafe.js:922
+#: assets/js/frontend/blocks-paysafe.js:977
+msgid "CVV"
+msgstr "CVV"
+
+#: resources/html/checkout/hosted-payment-form.php:39
+msgid "Save your payment details for future purchases"
+msgstr "Save your payment details for future purchases"
+
+#: resources/html/checkout/hosted-payment-form.php:44
+#: assets/js/frontend/blocks-paysafe.js:755
+#: resources/js/frontend/paysafe.js:692
+#: assets/js/frontend/blocks-paysafe.js:747
+msgid "Note:"
+msgstr "Note:"
+
+#: resources/html/checkout/hosted-payment-form.php:45
+#: assets/js/frontend/blocks-paysafe.js:755
+#: resources/js/frontend/paysafe.js:693
+#: assets/js/frontend/blocks-paysafe.js:748
+msgid "This order includes a subscription."
+msgstr "This order includes a subscription."
+
+#: resources/html/checkout/hosted-payment-form.php:46
+#: assets/js/frontend/blocks-paysafe.js:755
+#: resources/js/frontend/paysafe.js:694
+#: assets/js/frontend/blocks-paysafe.js:749
+msgid "By proceeding with payment, your card details will be securely saved for future recurring payments."
+msgstr "By proceeding with payment, your card details will be securely saved for future recurring payments."
+
+#: resources/html/checkout/hosted-payment-form.php:48
+#: assets/js/frontend/blocks-paysafe.js:755
+#: resources/js/frontend/paysafe.js:696
+#: assets/js/frontend/blocks-paysafe.js:751
+msgid "Card data is stored and processed securely by Paysafe in compliance with PCI DSS standards and according to the merchant’s"
+msgstr "Card data is stored and processed securely by Paysafe in compliance with PCI DSS standards and according to the merchant’s"
+
+#: resources/html/checkout/hosted-payment-form.php:50
+#: resources/html/checkout/hosted-payment-form.php:52
+#: assets/js/frontend/blocks-paysafe.js:755
+#: resources/js/frontend/paysafe.js:698
+#: assets/js/frontend/blocks-paysafe.js:753
+msgid "Terms and Conditions"
+msgstr "Terms and Conditions"
+
+#: resources/html/checkout/hosted-payment-form.php:54
+#: assets/js/frontend/blocks-paysafe.js:755
+#: resources/js/frontend/paysafe.js:700
+msgid "and"
+msgstr "and"
+
+#: resources/html/checkout/hosted-payment-form.php:56
+#: resources/html/checkout/hosted-payment-form.php:58
+#: assets/js/frontend/blocks-paysafe.js:755
+#: resources/js/frontend/paysafe.js:702
+#: assets/js/frontend/blocks-paysafe.js:757
+msgid "Privacy Policy."
+msgstr "Privacy Policy."
+
+#: resources/html/checkout/hosted-payment-form.php:63
+msgid "To manage your payment methods, go to My Account →"
+msgstr "To manage your payment methods, go to My Account →"
+
+#: resources/html/checkout/hosted-payment-form.php:64
+#: settings/PaysafeSettings.php:44
+#: settings/PaysafeSettings.php:72
+msgid "Payment Methods"
+msgstr "Payment Methods"
+
+#: resources/html/general/test-mode-notice.php:5
+#: assets/js/frontend/blocks-paysafe.js:736
+#: resources/js/frontend/paysafe.js:670
+#: assets/js/frontend/blocks-paysafe.js:725
+msgid "Paysafe Checkout is in TEST MODE. Use the test Visa card 4000000000001091 with any expiry date, CVC, email, or OTP token. Important notice: Please use only TEST CARDS for testing. You can find other test cards "
+msgstr "Paysafe Checkout is in TEST MODE. Use the test Visa card 4000000000001091 with any expiry date, CVC, email, or OTP token. Important notice: Please use only TEST CARDS for testing. You can find other test cards "
+
+#: resources/html/general/test-mode-notice.php:7
+#: assets/js/frontend/blocks-paysafe.js:739
+#: resources/js/frontend/paysafe.js:676
+#: assets/js/frontend/blocks-paysafe.js:731
+msgid "here. "
+msgstr "here. "
+
+#: resources/html/my-account/payment-methods/add-paysafe-payment-method-form.php:14
+msgid "Billing Address"
+msgstr "Billing Address"
+
+#: resources/html/my-account/payment-methods/add-paysafe-payment-method-form.php:20
+msgid "First Name"
+msgstr "First Name"
+
+#: resources/html/my-account/payment-methods/add-paysafe-payment-method-form.php:26
+msgid "Last Name"
+msgstr "Last Name"
+
+#: resources/html/my-account/payment-methods/add-paysafe-payment-method-form.php:32
+msgid "Email address"
+msgstr "Email address"
+
+#: resources/html/my-account/payment-methods/add-paysafe-payment-method-form.php:37
+msgid "Country"
+msgstr "Country"
+
+#: resources/html/my-account/payment-methods/add-paysafe-payment-method-form.php:43
+msgid "State"
+msgstr "State"
+
+#: resources/html/my-account/payment-methods/add-paysafe-payment-method-form.php:50
+msgid "Postal code"
+msgstr "Postal code"
+
+#: resources/html/my-account/payment-methods/add-paysafe-payment-method-form.php:56
+msgid "City"
+msgstr "City"
+
+#: resources/html/my-account/payment-methods/add-paysafe-payment-method-form.php:62
+msgid "Street"
+msgstr "Street"
+
+#: resources/html/my-account/payment-methods/add-paysafe-payment-method-form.php:69
+msgid "Payment Card information"
+msgstr "Payment Card information"
+
+#. translators: %s is the `click here` link
+#: resources/html/my-account/payment-methods/add-paysafe-payment-method-form.php:101
+msgid "Please make sure your Billing Address details are correct before adding your payment method. If the above details are not correct, %s to correct them. "
+msgstr "Please make sure your Billing Address details are correct before adding your payment method. If the above details are not correct, %s to correct them. "
+
+#: resources/html/my-account/payment-methods/add-paysafe-payment-method-form.php:103
+msgid "click here"
+msgstr "click here"
+
+#. translators: %s is the merchant name
+#: resources/html/my-account/payment-methods/add-paysafe-payment-method-form.php:109
+msgid "By providing your payment information, you allow %s to charge your card for future payments according to the merchant's Terms and conditions. "
+msgstr "By providing your payment information, you allow %s to charge your card for future payments according to the merchant's Terms and conditions. "
+
+#: settings/PaysafeSettings.php:47
+msgid "Select payment methods you want to enable or disable."
+msgstr "Select payment methods you want to enable or disable."
+
+#. translators: %s is the currency used
+#: settings/PaysafeSettings.php:77
+msgid "There are no available payment methods for this account and the currently set currency for this store (%s)."
+msgstr "There are no available payment methods for this account and the currently set currency for this store (%s)."
+
+#: settings/PaysafeSettings.php:79
+msgid "Please change your store's currency or contact Paysafe Customer Service."
+msgstr "Please change your store's currency or contact Paysafe Customer Service."
+
+#: settings/PaysafeSettings.php:102
+msgid "Card payments"
+msgstr "Card payments"
+
+#: settings/PaysafeSettings.php:159
+msgid "Hosted Checkout"
+msgstr "Hosted Checkout"
+
+#: settings/PaysafeSettings.php:180
+msgid "Enable Extension"
+msgstr "Enable Extension"
+
+#: settings/PaysafeSettings.php:181
+msgid "Check to enable the extension"
+msgstr "Check to enable the extension"
+
+#: settings/PaysafeSettings.php:184
+msgid "The extension must be enabled to appear on the Checkout page"
+msgstr "The extension must be enabled to appear on the Checkout page"
+
+#: settings/PaysafeSettings.php:188
+msgid "Test mode"
+msgstr "Test mode"
+
+#: settings/PaysafeSettings.php:189
+msgid "Check to activate Test mode"
+msgstr "Check to activate Test mode"
+
+#: settings/PaysafeSettings.php:193
+msgid "If you enable test mode, the extension will connect to the Test environment."
+msgstr "If you enable test mode, the extension will connect to the Test environment."
+
+#: settings/PaysafeSettings.php:197
+msgid "In this case, you must use test cards provided in the Paysafe documentation"
+msgstr "In this case, you must use test cards provided in the Paysafe documentation"
+
+#: settings/PaysafeSettings.php:204
+msgid "Test Environment Credentials"
+msgstr "Test Environment Credentials"
+
+#: settings/PaysafeSettings.php:206
+msgid "Configure your Test Environment credentials."
+msgstr "Configure your Test Environment credentials."
+
+#: settings/PaysafeSettings.php:212
+#: settings/PaysafeSettings.php:264
+msgid "Public API key"
+msgstr "Public API key"
+
+#: settings/PaysafeSettings.php:216
+#: settings/PaysafeSettings.php:268
+msgid "Public API key token provided by Paysafe."
+msgstr "Public API key token provided by Paysafe."
+
+#: settings/PaysafeSettings.php:217
+#: settings/PaysafeSettings.php:269
+msgid "Check your public key in your Optic Portal, under the Developer/API Keys section."
+msgstr "Check your public key in your Optic Portal, under the Developer/API Keys section."
+
+#: settings/PaysafeSettings.php:221
+#: settings/PaysafeSettings.php:273
+msgid "Public API key used for integration with Paysafe Checkout."
+msgstr "Public API key used for integration with Paysafe Checkout."
+
+#: settings/PaysafeSettings.php:223
+#: settings/PaysafeSettings.php:275
+msgid "This key is accessible to customers and visible in data traffic between Paysafe Payments and Paysafe Checkout."
+msgstr "This key is accessible to customers and visible in data traffic between Paysafe Payments and Paysafe Checkout."
+
+#: settings/PaysafeSettings.php:227
+#: settings/PaysafeSettings.php:279
+msgid "Do not use this key for connecting to the Paysafe Payment API."
+msgstr "Do not use this key for connecting to the Paysafe Payment API."
+
+#: settings/PaysafeSettings.php:236
+#: settings/PaysafeSettings.php:288
+msgid "Private API key"
+msgstr "Private API key"
+
+#: settings/PaysafeSettings.php:240
+#: settings/PaysafeSettings.php:292
+msgid "Private API key token provided by Paysafe."
+msgstr "Private API key token provided by Paysafe."
+
+#: settings/PaysafeSettings.php:241
+#: settings/PaysafeSettings.php:293
+msgid "Check your private key in your Optic Portal, under the Developer/API Keys section."
+msgstr "Check your private key in your Optic Portal, under the Developer/API Keys section."
+
+#: settings/PaysafeSettings.php:245
+#: settings/PaysafeSettings.php:297
+msgid "Do not share your private API key."
+msgstr "Do not share your private API key."
+
+#: settings/PaysafeSettings.php:246
+#: settings/PaysafeSettings.php:298
+msgid "It should not be used for client-server communication, only for secure backend-backend communication."
+msgstr "It should not be used for client-server communication, only for secure backend-backend communication."
+
+#: settings/PaysafeSettings.php:256
+msgid "Live Environment Credentials"
+msgstr "Live Environment Credentials"
+
+#: settings/PaysafeSettings.php:258
+msgid "Configure your Live Environment credentials. "
+msgstr "Configure your Live Environment credentials. "
+
+#: settings/PaysafeSettings.php:308
+#: settings/PaysafeSettings.php:315
+msgid "Woocommerce Subscriptions"
+msgstr "Woocommerce Subscriptions"
+
+#: settings/PaysafeSettings.php:311
+msgid "The WooCommerce Subscriptions plugin is missing."
+msgstr "The WooCommerce Subscriptions plugin is missing."
+
+#: settings/PaysafeSettings.php:312
+msgid "Please install the plugin to enable support for subscription based payments."
+msgstr "Please install the plugin to enable support for subscription based payments."
+
+#: settings/PaysafeSettings.php:318
+msgid "Enable or disable Woocommerce subscriptions support"
+msgstr "Enable or disable Woocommerce subscriptions support"
+
+#: settings/PaysafeSettings.php:324
+msgid "Woocommerce Subscription support"
+msgstr "Woocommerce Subscription support"
+
+#: settings/PaysafeSettings.php:325
+msgid "Check to enable subscription support"
+msgstr "Check to enable subscription support"
+
+#: settings/PaysafeSettings.php:328
+msgid "Woocommerce Subscription plugin must be present"
+msgstr "Woocommerce Subscription plugin must be present"
+
+#: settings/PaysafeSettings.php:331
+msgid "Automatic capture"
+msgstr "Automatic capture"
+
+#: settings/PaysafeSettings.php:332
+msgid "Always capture funds for subscriptions"
+msgstr "Always capture funds for subscriptions"
+
+#: settings/PaysafeSettings.php:335
+msgid "Funds wil be captured automatically even if Payment Action is set to Authorization Only"
+msgstr "Funds wil be captured automatically even if Payment Action is set to Authorization Only"
+
+#: settings/PaysafeSettings.php:339
+msgid "Webhook Setup"
+msgstr "Webhook Setup"
+
+#: settings/PaysafeSettings.php:342
+msgid "Set up Webhook functionality at the Optic Portal, visit the Developer → Webhook Configurations section and add a new configuration."
+msgstr "Set up Webhook functionality at the Optic Portal, visit the Developer → Webhook Configurations section and add a new configuration."
+
+#: settings/PaysafeSettings.php:346
+msgid "For more detailed guide, please consult the WooCommerce Merchant Installation Guide."
+msgstr "For more detailed guide, please consult the WooCommerce Merchant Installation Guide."
+
+#: settings/PaysafeSettings.php:352
+msgid "Webhook URL"
+msgstr "Webhook URL"
+
+#: settings/PaysafeSettings.php:362
+msgid "Webhook Secret Key"
+msgstr "Webhook Secret Key"
+
+#: settings/PaysafeSettings.php:365
+msgid "Webhook API key from Optic"
+msgstr "Webhook API key from Optic"
+
+#: settings/PaysafeSettings.php:380
+msgid "Shopping Experience"
+msgstr "Shopping Experience"
+
+#: settings/PaysafeSettings.php:382
+msgid "Basic settings related to the shopping experience and the Paysafe Checkout"
+msgstr "Basic settings related to the shopping experience and the Paysafe Checkout"
+
+#: settings/PaysafeSettings.php:388
+msgid "Merchant name"
+msgstr "Merchant name"
+
+#: settings/PaysafeSettings.php:390
+msgid "Merchant name on Bank Statement"
+msgstr "Merchant name on Bank Statement"
+
+#: settings/PaysafeSettings.php:391
+#: settings/PaysafeSettings.php:401
+#: settings/PaysafeSettings.php:416
+#: settings/PaysafeSettings.php:430
+msgid "(optional)"
+msgstr "(optional)"
+
+#: settings/PaysafeSettings.php:398
+msgid "Merchant Phone Number"
+msgstr "Merchant Phone Number"
+
+#: settings/PaysafeSettings.php:400
+msgid "Merchant Phone on Bank Statement"
+msgstr "Merchant Phone on Bank Statement"
+
+#: settings/PaysafeSettings.php:408
+msgid "Payment method title"
+msgstr "Payment method title"
+
+#: settings/PaysafeSettings.php:412
+msgid "Payment method title visible on the WooCommerce Checkout page"
+msgstr "Payment method title visible on the WooCommerce Checkout page"
+
+#: settings/PaysafeSettings.php:422
+msgid "Payment method description"
+msgstr "Payment method description"
+
+#: settings/PaysafeSettings.php:426
+msgid "Payment method description visible on the WooCommerce Checkout page"
+msgstr "Payment method description visible on the WooCommerce Checkout page"
+
+#: settings/PaysafeSettings.php:436
+msgid "Paysafe Checkout Language"
+msgstr "Paysafe Checkout Language"
+
+#: settings/PaysafeSettings.php:439
+msgid "English"
+msgstr "English"
+
+#: settings/PaysafeSettings.php:440
+msgid "French (Canadian)"
+msgstr "French (Canadian)"
+
+#: settings/PaysafeSettings.php:441
+msgid "Spanish (Mexican)"
+msgstr "Spanish (Mexican)"
+
+#: settings/PaysafeSettings.php:442
+msgid "Portuguese (Brazilian)"
+msgstr "Portuguese (Brazilian)"
+
+#: settings/PaysafeSettings.php:445
+msgid "The selected language for the Paysafe Checkout"
+msgstr "The selected language for the Paysafe Checkout"
+
+#: settings/PaysafeSettings.php:451
+msgid "Advanced"
+msgstr "Advanced"
+
+#: settings/PaysafeSettings.php:456
+msgid "Debug logging"
+msgstr "Debug logging"
+
+#: settings/PaysafeSettings.php:457
+msgid "Check to enable debugging"
+msgstr "Check to enable debugging"
+
+#: settings/PaysafeSettings.php:460
+msgid "Enable this option to log data. This should not be used in production."
+msgstr "Enable this option to log data. This should not be used in production."
+
+#: settings/PaysafeSettings.php:465
+msgid "Mask sensitive user data in logs"
+msgstr "Mask sensitive user data in logs"
+
+#: settings/PaysafeSettings.php:466
+msgid "Check to enable user data masking"
+msgstr "Check to enable user data masking"
+
+#: settings/PaysafeSettings.php:469
+msgid "Enable this option to mask sensitive data in log files"
+msgstr "Enable this option to mask sensitive data in log files"
+
+#: settings/PaysafeSettings.php:495
+#: settings/PaysafeSettings.php:556
+msgid "Check to enable the payment method"
+msgstr "Check to enable the payment method"
+
+#: settings/PaysafeSettings.php:499
+msgid "Enable this payment method in your merchant dashboard"
+msgstr "Enable this payment method in your merchant dashboard"
+
+#: settings/PaysafeSettings.php:565
+msgid "This payment method is only supported through the Paysafe Checkout form"
+msgstr "This payment method is only supported through the Paysafe Checkout form"
+
+#: settings/PaysafeSettings.php:574
+#: settings/PaysafeSettings.php:582
+msgid "Account ID (FMA)"
+msgstr "Account ID (FMA)"
+
+#: settings/PaysafeSettings.php:577
+msgid "Select the account ID (FMA) for this payment method"
+msgstr "Select the account ID (FMA) for this payment method"
+
+#: settings/PaysafeSettings.php:593
+msgid "Payment form type"
+msgstr "Payment form type"
+
+#: settings/PaysafeSettings.php:598
+msgid "Paysafe Checkout is a redirect-based method that opens in a modal window."
+msgstr "Paysafe Checkout is a redirect-based method that opens in a modal window."
+
+#: settings/PaysafeSettings.php:602
+msgid "Hosted Checkout is an embedded integration where the payment form appears directly within the checkout page."
+msgstr "Hosted Checkout is an embedded integration where the payment form appears directly within the checkout page."
+
+#: settings/PaysafeSettings.php:609
+msgid "Payment action"
+msgstr "Payment action"
+
+#: settings/PaysafeSettings.php:613
+#: settings/PaysafeSettings.php:619
+msgid "Authorize Only (Manual Capture)"
+msgstr "Authorize Only (Manual Capture)"
+
+#: settings/PaysafeSettings.php:615
+#: settings/PaysafeSettings.php:624
+msgid "Authorize and Capture (Automatic Settlement)"
+msgstr "Authorize and Capture (Automatic Settlement)"
+
+#: settings/PaysafeSettings.php:620
+msgid "The payment is authorized, but funds are not captured until you manually approve it — usually by changing the order status to \"Processing.\""
+msgstr "The payment is authorized, but funds are not captured until you manually approve it — usually by changing the order status to \"Processing.\""
+
+#: settings/PaysafeSettings.php:625
+msgid "The payment is authorized and captured immediately in a single step."
+msgstr "The payment is authorized and captured immediately in a single step."
+
+#: settings/PaysafeSettings.php:629
+msgid "Note"
+msgstr "Note"
+
+#: settings/PaysafeSettings.php:630
+msgid "This setting determines the default behavior for all transactions. If you choose manual capture, you’ll need to take action to complete each payment."
+msgstr "This setting determines the default behavior for all transactions. If you choose manual capture, you’ll need to take action to complete each payment."
+
+#: settings/PaysafeSettings.php:640
+msgid "Saved cards"
+msgstr "Saved cards"
+
+#: settings/PaysafeSettings.php:641
+msgid "Enable saved cards"
+msgstr "Enable saved cards"
+
+#: settings/PaysafeSettings.php:645
+msgid "If customer adds this payment method, save token to My account -> Payment methods"
+msgstr "If customer adds this payment method, save token to My account -> Payment methods"
+
+#: settings/PaysafeSettings.php:652
+msgid "CVV Check"
+msgstr "CVV Check"
+
+#: settings/PaysafeSettings.php:653
+msgid "Require CVV for Saved Cards"
+msgstr "Require CVV for Saved Cards"
+
+#: settings/PaysafeSettings.php:657
+msgid "Choose whether customers are required to enter their CVV when paying with a saved card."
+msgstr "Choose whether customers are required to enter their CVV when paying with a saved card."
+
+#: settings/PaysafeSettings.php:662
+msgid "Enabling this setting increases transaction security and may reduce fraud risk."
+msgstr "Enabling this setting increases transaction security and may reduce fraud risk."
+
+#: settings/PaysafeSettings.php:667
+msgid "Disabling it provides a smoother, frictionless checkout experience but may lower the level of cardholder verification."
+msgstr "Disabling it provides a smoother, frictionless checkout experience but may lower the level of cardholder verification."
+
+#: settings/PaysafeSettings.php:672
+msgid "Default: Enabled (CVV required)."
+msgstr "Default: Enabled (CVV required)."
+
+#: assets/js/frontend/blocks-apple_pay.js:244
+#: resources/js/frontend/apple_pay.js:120
+#: assets/js/frontend/blocks-apple_pay.js:175
+msgid "Pay with Apple Pay"
+msgstr "Pay with Apple Pay"
+
+#: assets/js/frontend/blocks-apple_pay.js:453
+#: assets/js/frontend/blocks-google_pay.js:380
+#: assets/js/frontend/blocks-neteller.js:329
+#: assets/js/frontend/blocks-paysafe.js:611
+#: assets/js/frontend/blocks-paysafecard.js:330
+#: assets/js/frontend/blocks-paysafecash.js:330
+#: assets/js/frontend/blocks-skrill.js:10218
+#: resources/js/frontend/apple_pay.js:374
+#: resources/js/frontend/google_pay.js:280
+#: resources/js/frontend/neteller.js:213
+#: resources/js/frontend/paysafe.js:539
+#: resources/js/frontend/paysafecard.js:214
+#: resources/js/frontend/paysafecash.js:214
+#: resources/js/frontend/skrill.js:217
+#: assets/js/frontend/blocks-apple_pay.js:429
+#: assets/js/frontend/blocks-google_pay.js:335
+#: assets/js/frontend/blocks-neteller.js:268
+#: assets/js/frontend/blocks-paysafe.js:594
+#: assets/js/frontend/blocks-paysafecard.js:269
+#: assets/js/frontend/blocks-paysafecash.js:269
+#: assets/js/frontend/blocks-skrill.js:11131
+msgid "Your goods are now purchased. Expect them to be delivered in next 5 business days."
+msgstr "Your goods are now purchased. Expect them to be delivered in next 5 business days."
+
+#: assets/js/frontend/blocks-apple_pay.js:456
+#: assets/js/frontend/blocks-apple_pay.js:461
+#: assets/js/frontend/blocks-apple_pay.js:462
+#: assets/js/frontend/blocks-apple_pay.js:536
+#: assets/js/frontend/blocks-apple_pay.js:539
+#: assets/js/frontend/blocks-google_pay.js:383
+#: assets/js/frontend/blocks-google_pay.js:388
+#: assets/js/frontend/blocks-google_pay.js:389
+#: assets/js/frontend/blocks-google_pay.js:463
+#: assets/js/frontend/blocks-google_pay.js:466
+#: assets/js/frontend/blocks-neteller.js:331
+#: assets/js/frontend/blocks-neteller.js:336
+#: assets/js/frontend/blocks-neteller.js:337
+#: assets/js/frontend/blocks-neteller.js:411
+#: assets/js/frontend/blocks-neteller.js:414
+#: assets/js/frontend/blocks-paysafe.js:519
+#: assets/js/frontend/blocks-paysafe.js:616
+#: assets/js/frontend/blocks-paysafe.js:624
+#: assets/js/frontend/blocks-paysafe.js:714
+#: assets/js/frontend/blocks-paysafe.js:928
+#: assets/js/frontend/blocks-paysafecard.js:332
+#: assets/js/frontend/blocks-paysafecard.js:337
+#: assets/js/frontend/blocks-paysafecard.js:338
+#: assets/js/frontend/blocks-paysafecard.js:412
+#: assets/js/frontend/blocks-paysafecard.js:415
+#: assets/js/frontend/blocks-paysafecash.js:332
+#: assets/js/frontend/blocks-paysafecash.js:337
+#: assets/js/frontend/blocks-paysafecash.js:338
+#: assets/js/frontend/blocks-paysafecash.js:412
+#: assets/js/frontend/blocks-paysafecash.js:415
+#: assets/js/frontend/blocks-skrill.js:10220
+#: assets/js/frontend/blocks-skrill.js:10225
+#: assets/js/frontend/blocks-skrill.js:10226
+#: assets/js/frontend/blocks-skrill.js:10300
+#: assets/js/frontend/blocks-skrill.js:10303
+#: resources/js/frontend/apple_pay.js:377
+#: resources/js/frontend/apple_pay.js:384
+#: resources/js/frontend/apple_pay.js:385
+#: resources/js/frontend/apple_pay.js:463
+#: resources/js/frontend/apple_pay.js:466
+#: resources/js/frontend/google_pay.js:283
+#: resources/js/frontend/google_pay.js:290
+#: resources/js/frontend/google_pay.js:291
+#: resources/js/frontend/google_pay.js:369
+#: resources/js/frontend/google_pay.js:372
+#: resources/js/frontend/neteller.js:215
+#: resources/js/frontend/neteller.js:222
+#: resources/js/frontend/neteller.js:223
+#: resources/js/frontend/neteller.js:301
+#: resources/js/frontend/neteller.js:304
+#: resources/js/frontend/paysafe.js:433
+#: resources/js/frontend/paysafe.js:542
+#: resources/js/frontend/paysafe.js:550
+#: resources/js/frontend/paysafe.js:636
+#: resources/js/frontend/paysafe.js:892
+#: resources/js/frontend/paysafecard.js:216
+#: resources/js/frontend/paysafecard.js:223
+#: resources/js/frontend/paysafecard.js:224
+#: resources/js/frontend/paysafecard.js:302
+#: resources/js/frontend/paysafecard.js:305
+#: resources/js/frontend/paysafecash.js:216
+#: resources/js/frontend/paysafecash.js:223
+#: resources/js/frontend/paysafecash.js:224
+#: resources/js/frontend/paysafecash.js:302
+#: resources/js/frontend/paysafecash.js:305
+#: resources/js/frontend/skrill.js:219
+#: resources/js/frontend/skrill.js:226
+#: resources/js/frontend/skrill.js:227
+#: resources/js/frontend/skrill.js:305
+#: resources/js/frontend/skrill.js:308
+#: assets/js/frontend/blocks-apple_pay.js:432
+#: assets/js/frontend/blocks-apple_pay.js:439
+#: assets/js/frontend/blocks-apple_pay.js:440
+#: assets/js/frontend/blocks-apple_pay.js:518
+#: assets/js/frontend/blocks-apple_pay.js:521
+#: assets/js/frontend/blocks-google_pay.js:338
+#: assets/js/frontend/blocks-google_pay.js:345
+#: assets/js/frontend/blocks-google_pay.js:346
+#: assets/js/frontend/blocks-google_pay.js:424
+#: assets/js/frontend/blocks-google_pay.js:427
+#: assets/js/frontend/blocks-neteller.js:270
+#: assets/js/frontend/blocks-neteller.js:277
+#: assets/js/frontend/blocks-neteller.js:278
+#: assets/js/frontend/blocks-neteller.js:356
+#: assets/js/frontend/blocks-neteller.js:359
+#: assets/js/frontend/blocks-paysafe.js:488
+#: assets/js/frontend/blocks-paysafe.js:597
+#: assets/js/frontend/blocks-paysafe.js:605
+#: assets/js/frontend/blocks-paysafe.js:691
+#: assets/js/frontend/blocks-paysafe.js:947
+#: assets/js/frontend/blocks-paysafecard.js:271
+#: assets/js/frontend/blocks-paysafecard.js:278
+#: assets/js/frontend/blocks-paysafecard.js:279
+#: assets/js/frontend/blocks-paysafecard.js:357
+#: assets/js/frontend/blocks-paysafecard.js:360
+#: assets/js/frontend/blocks-paysafecash.js:271
+#: assets/js/frontend/blocks-paysafecash.js:278
+#: assets/js/frontend/blocks-paysafecash.js:279
+#: assets/js/frontend/blocks-paysafecash.js:357
+#: assets/js/frontend/blocks-paysafecash.js:360
+#: assets/js/frontend/blocks-skrill.js:11133
+#: assets/js/frontend/blocks-skrill.js:11140
+#: assets/js/frontend/blocks-skrill.js:11141
+#: assets/js/frontend/blocks-skrill.js:11219
+#: assets/js/frontend/blocks-skrill.js:11222
+msgid "The payment process failed. Please close this popup and try again"
+msgstr "The payment process failed. Please close this popup and try again"
+
+#: assets/js/frontend/blocks-apple_pay.js:480
+#: assets/js/frontend/blocks-google_pay.js:407
+#: assets/js/frontend/blocks-neteller.js:355
+#: assets/js/frontend/blocks-paysafe.js:613
+#: assets/js/frontend/blocks-paysafe.js:621
+#: assets/js/frontend/blocks-paysafe.js:642
+#: assets/js/frontend/blocks-paysafe.js:666
+#: assets/js/frontend/blocks-paysafe.js:691
+#: assets/js/frontend/blocks-paysafe.js:709
+#: assets/js/frontend/blocks-paysafecard.js:356
+#: assets/js/frontend/blocks-paysafecash.js:356
+#: assets/js/frontend/blocks-skrill.js:10244
+#: resources/js/frontend/apple_pay.js:403
+#: resources/js/frontend/google_pay.js:309
+#: resources/js/frontend/neteller.js:241
+#: resources/js/frontend/paysafe.js:541
+#: resources/js/frontend/paysafe.js:549
+#: resources/js/frontend/paysafe.js:568
+#: resources/js/frontend/paysafe.js:590
+#: resources/js/frontend/paysafe.js:615
+#: resources/js/frontend/paysafe.js:632
+#: resources/js/frontend/paysafecard.js:242
+#: resources/js/frontend/paysafecash.js:242
+#: resources/js/frontend/skrill.js:245
+#: assets/js/frontend/blocks-apple_pay.js:458
+#: assets/js/frontend/blocks-google_pay.js:364
+#: assets/js/frontend/blocks-neteller.js:296
+#: assets/js/frontend/blocks-paysafe.js:596
+#: assets/js/frontend/blocks-paysafe.js:604
+#: assets/js/frontend/blocks-paysafe.js:623
+#: assets/js/frontend/blocks-paysafe.js:645
+#: assets/js/frontend/blocks-paysafe.js:670
+#: assets/js/frontend/blocks-paysafe.js:687
+#: assets/js/frontend/blocks-paysafecard.js:297
+#: assets/js/frontend/blocks-paysafecash.js:297
+#: assets/js/frontend/blocks-skrill.js:11159
+msgid "Payment failed. Popup was closed without a correct end message!"
+msgstr "Payment failed. Popup was closed without a correct end message!"
+
+#: assets/js/frontend/blocks-apple_pay.js:485
+#: assets/js/frontend/blocks-google_pay.js:412
+#: assets/js/frontend/blocks-neteller.js:360
+#: assets/js/frontend/blocks-paysafe.js:647
+#: assets/js/frontend/blocks-paysafecard.js:361
+#: assets/js/frontend/blocks-paysafecash.js:361
+#: assets/js/frontend/blocks-skrill.js:10249
+#: resources/js/frontend/apple_pay.js:406
+#: resources/js/frontend/google_pay.js:312
+#: resources/js/frontend/neteller.js:244
+#: resources/js/frontend/paysafe.js:571
+#: resources/js/frontend/paysafecard.js:245
+#: resources/js/frontend/paysafecash.js:245
+#: resources/js/frontend/skrill.js:248
+#: assets/js/frontend/blocks-apple_pay.js:461
+#: assets/js/frontend/blocks-google_pay.js:367
+#: assets/js/frontend/blocks-neteller.js:299
+#: assets/js/frontend/blocks-paysafe.js:626
+#: assets/js/frontend/blocks-paysafecard.js:300
+#: assets/js/frontend/blocks-paysafecash.js:300
+#: assets/js/frontend/blocks-skrill.js:11162
+msgid "The payment was declined. Please, try again with the same or another payment method."
+msgstr "The payment was declined. Please, try again with the same or another payment method."
+
+#: assets/js/frontend/blocks-apple_pay.js:531
+#: assets/js/frontend/blocks-apple_pay.js:532
+#: assets/js/frontend/blocks-google_pay.js:458
+#: assets/js/frontend/blocks-google_pay.js:459
+#: assets/js/frontend/blocks-neteller.js:406
+#: assets/js/frontend/blocks-neteller.js:407
+#: assets/js/frontend/blocks-paysafe.js:703
+#: assets/js/frontend/blocks-paysafe.js:704
+#: assets/js/frontend/blocks-paysafecard.js:407
+#: assets/js/frontend/blocks-paysafecard.js:408
+#: assets/js/frontend/blocks-paysafecash.js:407
+#: assets/js/frontend/blocks-paysafecash.js:408
+#: assets/js/frontend/blocks-skrill.js:10295
+#: assets/js/frontend/blocks-skrill.js:10296
+#: resources/js/frontend/apple_pay.js:457
+#: resources/js/frontend/apple_pay.js:458
+#: resources/js/frontend/google_pay.js:363
+#: resources/js/frontend/google_pay.js:364
+#: resources/js/frontend/neteller.js:295
+#: resources/js/frontend/neteller.js:296
+#: resources/js/frontend/paysafe.js:625
+#: resources/js/frontend/paysafe.js:626
+#: resources/js/frontend/paysafecard.js:296
+#: resources/js/frontend/paysafecard.js:297
+#: resources/js/frontend/paysafecash.js:296
+#: resources/js/frontend/paysafecash.js:297
+#: resources/js/frontend/skrill.js:299
+#: resources/js/frontend/skrill.js:300
+#: assets/js/frontend/blocks-apple_pay.js:512
+#: assets/js/frontend/blocks-apple_pay.js:513
+#: assets/js/frontend/blocks-google_pay.js:418
+#: assets/js/frontend/blocks-google_pay.js:419
+#: assets/js/frontend/blocks-neteller.js:350
+#: assets/js/frontend/blocks-neteller.js:351
+#: assets/js/frontend/blocks-paysafe.js:680
+#: assets/js/frontend/blocks-paysafe.js:681
+#: assets/js/frontend/blocks-paysafecard.js:351
+#: assets/js/frontend/blocks-paysafecard.js:352
+#: assets/js/frontend/blocks-paysafecash.js:351
+#: assets/js/frontend/blocks-paysafecash.js:352
+#: assets/js/frontend/blocks-skrill.js:11213
+#: assets/js/frontend/blocks-skrill.js:11214
+msgid "Amount is not the value expected"
+msgstr "Amount is not the value expected"
+
+#: assets/js/frontend/blocks-google_pay.js:244
+#: resources/js/frontend/google_pay.js:119
+#: assets/js/frontend/blocks-google_pay.js:174
+msgid "Pay with GooglePay"
+msgstr "Pay with GooglePay"
+
+#: assets/js/frontend/blocks-paysafe.js:367
+#: assets/js/frontend/blocks-paysafe.js:372
+#: assets/js/frontend/blocks-paysafe.js:376
+#: resources/js/frontend/paysafe.js:260
+#: resources/js/frontend/paysafe.js:263
+#: resources/js/frontend/paysafe.js:267
+#: assets/js/frontend/blocks-paysafe.js:315
+#: assets/js/frontend/blocks-paysafe.js:318
+#: assets/js/frontend/blocks-paysafe.js:322
+msgid "The payment process failed. Card holder name must have between 2 and 160 characters!"
+msgstr "The payment process failed. Card holder name must have between 2 and 160 characters!"
+
+#: assets/js/frontend/blocks-paysafe.js:381
+#: resources/js/frontend/paysafe.js:270
+#: assets/js/frontend/blocks-paysafe.js:325
+msgid "The payment process failed. Please enter your card details and try again"
+msgstr "The payment process failed. Please enter your card details and try again"
+
+#: assets/js/frontend/blocks-paysafe.js:385
+#: assets/js/frontend/blocks-paysafe.js:516
+#: assets/js/frontend/blocks-paysafe.js:789
+#: assets/js/frontend/blocks-paysafe.js:925
+#: resources/js/frontend/paysafe.js:274
+#: resources/js/frontend/paysafe.js:432
+#: resources/js/frontend/paysafe.js:734
+#: resources/js/frontend/paysafe.js:891
+#: assets/js/frontend/blocks-paysafe.js:329
+#: assets/js/frontend/blocks-paysafe.js:487
+#: assets/js/frontend/blocks-paysafe.js:946
+msgid "The payment process failed."
+msgstr "The payment process failed."
+
+#: assets/js/frontend/blocks-paysafe.js:390
+#: assets/js/frontend/blocks-paysafe.js:527
+#: assets/js/frontend/blocks-paysafe.js:794
+#: assets/js/frontend/blocks-paysafe.js:919
+#: assets/js/frontend/blocks-paysafe.js:936
+#: resources/js/frontend/paysafe.js:277
+#: resources/js/frontend/paysafe.js:442
+#: resources/js/frontend/paysafe.js:737
+#: resources/js/frontend/paysafe.js:884
+#: resources/js/frontend/paysafe.js:901
+#: assets/js/frontend/blocks-paysafe.js:332
+#: assets/js/frontend/blocks-paysafe.js:497
+#: assets/js/frontend/blocks-paysafe.js:792
+#: assets/js/frontend/blocks-paysafe.js:939
+#: assets/js/frontend/blocks-paysafe.js:956
+msgid "The payment process failed. Please reload the page and try again"
+msgstr "The payment process failed. Please reload the page and try again"
+
+#: assets/js/frontend/blocks-paysafe.js:780
+#: resources/js/frontend/paysafe.js:727
+#: assets/js/frontend/blocks-paysafe.js:782
+msgid "The payment process failed. No CVV entered"
+msgstr "The payment process failed. No CVV entered"
+
+#: assets/js/frontend/blocks-paysafe.js:785
+#: resources/js/frontend/paysafe.js:730
+msgid "The payment process failed. Please enter your saved card CVV and try again"
+msgstr "The payment process failed. Please enter your saved card CVV and try again"
