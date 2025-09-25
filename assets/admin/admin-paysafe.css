@@ -1,0 +1,142 @@
+.paysafe-spinner-wrapper {
+    opacity: 1;
+    transition: opacity 0.3s ease-out;
+}
+
+.paysafe-spinner-wrapper.fade-out {
+    opacity: 0;
+}
+.paysafe-spinner-wrapper {
+    pointer-events: none;
+}
+label[for=woocommerce_paysafe_payment_integration_type] {
+    text-align: right;
+}
+label[for=woocommerce_paysafe_apple_pay_integration_type] {
+    text-align: right;
+}
+label[for=woocommerce_paysafe_google_pay_integration_type] {
+    text-align: right;
+}
+label[for=woocommerce_paysafe_payment_action] {
+    text-align: right;
+}
+.paysafe-credentials-tabs .components-tab-panel__tabs {
+    display: flex;
+    border-bottom: 1px solid #dcdcde;
+    position: relative;
+    margin-bottom: 16px;
+}
+
+.paysafe-credentials-tabs .components-tab-panel__tabs button {
+    background: none;
+    border: none;
+    padding: 8px 20px;
+    margin: 0;
+    font-weight: 600;
+    color: #50575e;
+    position: relative;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.paysafe-credentials-tabs .components-tab-panel__tabs button[aria-selected="true"] {
+    color: #1d1f21;
+}
+
+.paysafe-credentials-tabs .tab-underline {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 50%;
+    background-color: #3B5BF9;
+    transition: transform 0.3s ease;
+}
+
+.paysafe-credentials-tabs .tab-underline.live {
+    transform: translateX(100%);
+}
+
+.paysafe-credentials-tabs .tab-underline.sandbox {
+    transform: translateX(0%);
+}
+
+
+.tab-content-wrapper {
+    overflow: hidden;
+    position: relative;
+    height: auto;
+}
+
+.tab-content-inner {
+    display: flex;
+    width: 200%;
+    transition: transform 0.4s ease;
+}
+
+.tab-content-inner.sandbox {
+    transform: translateX(0%);
+}
+
+.tab-content-inner.live {
+    transform: translateX(-50%);
+}
+
+.tab-slide {
+    width: 50%;
+    padding-right: 20px;
+    padding-bottom: 12px;
+}
+.paysafe-api-key {
+    background: #f6f7f7;
+    padding: 8px;
+    border-radius: 4px;
+    font-family: monospace;
+    font-size: 13px;
+    overflow: auto;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 100%;
+}
+
+.paysafe-api-key-wrapper {
+    background: #f6f7f7;
+    padding: 8px;
+    border-radius: 4px;
+    font-family: monospace;
+    font-size: 13px;
+    max-width: 100%;
+    margin-bottom: 4px;
+    white-space: pre-wrap;   /* allow wrapping */
+    word-break: break-all;   /* break long strings */
+    overflow: hidden;        /* no scrollbars */
+}
+
+.paysafe-show-toggle {
+    font-size: 13px;
+    padding: 0;
+}
+
+.paysafe-account-select .components-base-control__field{
+    width: 110px;
+}
+
+.paysafe-text-static input[disabled] {
+    border: none !important;
+    background: transparent !important;
+    padding-left: 0 !important;
+    box-shadow: none !important;
+    cursor: default !important;
+}
+.paysafe-webhook-url {
+    background: #f6f7f7;
+    padding: 8px;
+    border-radius: 4px;
+    font-family: monospace;
+    font-size: 13px;
+    max-width: 100%;
+    margin-bottom: 4px;
+    white-space: nowrap;
+    overflow-x: auto;
+}

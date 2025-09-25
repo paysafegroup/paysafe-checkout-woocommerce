@@ -1,0 +1,8 @@
+./idea
+/.idea
+package-lock.json
+/node_modules/
+/assets/js/frontend/blocks-neteller.js.map
+/assets/js/frontend/blocks-paysafecard.js.map
+/assets/js/frontend/blocks-paysafecash.js.map
+/assets/js/frontend/blocks-skrill.js.map
