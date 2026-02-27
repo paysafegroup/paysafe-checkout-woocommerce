@@ -1,0 +1,408 @@
+/* Layout containers */
+.paysafe-form {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.paysafe-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    margin-top: 24px;
+}
+
+.paysafe-section__left {
+    flex: 1 1 300px;
+    min-width: 250px;
+}
+
+.paysafe-section__card {
+    flex: 1 1 550px;
+    min-width: 300px;
+    padding: 20px;
+}
+
+/* Spinner state */
+.paysafe-spinner-wrapper {
+    text-align: center;
+    margin-top: 80px;
+    opacity: 1;
+    transition: opacity .3s ease-out;
+    pointer-events: none;
+}
+
+.paysafe-spinner-wrapper.fade-out {
+    opacity: 0;
+}
+
+.paysafe-spinner-text {
+    margin-top: 16px;
+}
+
+/* Checkbox rows */
+.paysafe-checkbox-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 8px;
+    border-radius: 4px;
+    flex-wrap: wrap;
+}
+
+.paysafe-checkbox-row__text {
+    flex: 1;
+}
+
+.paysafe-checkbox-row__title {
+    font-weight: 700;
+}
+
+.paysafe-checkbox-row__label {
+    color: #666;
+    font-size: 13px;
+    margin-top: 4px;
+}
+
+/* API key and show-more */
+.paysafe-api-key-wrapper {
+    background: #f6f7f7;
+    padding: 8px;
+    border-radius: 4px;
+    font-family: monospace;
+    font-size: 13px;
+    max-width: 100%;
+    margin-bottom: 4px;
+    white-space: pre-wrap;
+    word-break: break-all;
+    overflow: hidden;
+}
+
+.paysafe-show-toggle {
+    font-size: 13px;
+    padding: 0;
+}
+
+.paysafe-ellipsis {
+    opacity: .6;
+}
+
+.paysafe-show-more {
+    display: inline;
+    font-size: 13px;
+    margin-left: 4px;
+}
+
+/* Credential summary */
+.paysafe-cred-summary {
+    margin-top: 16px;
+}
+
+.paysafe-cred-summary__block {
+    margin-bottom: 12px;
+}
+
+.paysafe-cred-summary__label {
+    display: block;
+    margin-bottom: 4px;
+}
+
+.paysafe-configure-keys-btn {
+    margin-top: 16px;
+}
+
+/* Payment methods table */
+.paysafe-pm {
+    display: flex;
+    flex-direction: column;
+}
+
+.paysafe-warning-block {
+    margin: 8px 0;
+}
+
+.paysafe-pm-row {
+    display: flex;
+    align-items: flex-start;
+    padding: 12px 0;
+    border-bottom: 1px solid #e0e0e0;
+    gap: 16px;
+}
+
+.paysafe-pm-row__col--toggle {
+    width: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.paysafe-info-icon {
+    font-size: 30px;
+    color: #f0b400;
+    cursor: help;
+    line-height: .9;
+    margin-right: 20px;
+}
+
+.paysafe-pm-row__col--main {
+    flex: 1;
+}
+
+.paysafe-pm-row__icon {
+    width: 40px;
+}
+
+.paysafe-pm-row__icon-img {
+    height: 18px;
+}
+
+.paysafe-pm-row__desc {
+    font-size: 13px;
+    color: #666;
+}
+
+.paysafe-pm-row__col--more {
+    width: 40px;
+    text-align: center;
+}
+
+.paysafe-more-btn {
+    cursor: pointer;
+}
+
+/* Fields */
+.paysafe-field-wrap {
+    margin-bottom: 12px;
+}
+
+/* Sticky save bar */
+.paysafe-sticky-bar {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+    background: #fff;
+    padding: 12px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .15);
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+/* Modals */
+.paysafe-modal.paysafe-modal--method .paysafe-modal__field {
+    margin-bottom: 16px;
+}
+
+.paysafe-webhook-title {
+    margin-bottom: 16px;
+}
+
+.paysafe-webhook-label {
+    display: block;
+    margin-bottom: 4px;
+}
+
+.paysafe-webhook-actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.paysafe-copied-note {
+    font-size: 12px;
+    color: #1a7f37;
+}
+
+.paysafe-modal__footer {
+    margin-top: 20px;
+}
+
+/* Credentials modal */
+.paysafe-modal.paysafe-modal--credentials .paysafe-testconn-notice {
+    margin-top: 16px;
+}
+
+.paysafe-live-warning {
+    margin-top: 16px;
+}
+
+.paysafe-private-key {
+    position: relative;
+    margin-top: 16px;
+}
+
+.paysafe-modal__actions {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.paysafe-apply-btn {
+    background-color: #3B5BF9;
+    border-color: #3B5BF9;
+    color: #fff;
+}
+
+/* Existing styles preserved from before */
+.paysafe-spinner-wrapper.fade-out {
+    opacity: 0;
+}
+
+label[for=woocommerce_paysafe_payment_integration_type],
+label[for=woocommerce_paysafe_apple_pay_integration_type],
+label[for=woocommerce_paysafe_google_pay_integration_type],
+label[for=woocommerce_paysafe_payment_action] {
+    text-align: right;
+}
+
+.paysafe-credentials-tabs .components-tab-panel__tabs {
+    display: flex;
+    border-bottom: 1px solid #dcdcde;
+    position: relative;
+    margin-bottom: 16px;
+}
+
+.paysafe-credentials-tabs .components-tab-panel__tabs button {
+    background: none;
+    border: none;
+    padding: 8px 20px;
+    margin: 0;
+    font-weight: 600;
+    color: #50575e;
+    position: relative;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.paysafe-credentials-tabs .components-tab-panel__tabs button[aria-selected="true"] {
+    color: #1d1f21;
+}
+
+.paysafe-credentials-tabs .tab-underline {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 50%;
+    background-color: #3B5BF9;
+    transition: transform 0.3s ease;
+}
+
+.paysafe-credentials-tabs .tab-underline.live {
+    transform: translateX(100%);
+}
+
+.paysafe-credentials-tabs .tab-underline.sandbox {
+    transform: translateX(0%);
+}
+
+.tab-content-wrapper {
+    overflow: hidden;
+    position: relative;
+    height: auto;
+}
+
+.tab-content-inner {
+    display: flex;
+    width: 200%;
+    transition: transform 0.4s ease;
+}
+
+.tab-content-inner.sandbox {
+    transform: translateX(0%);
+}
+
+.tab-content-inner.live {
+    transform: translateX(-50%);
+}
+
+.tab-slide {
+    width: 50%;
+    padding-right: 20px;
+    padding-bottom: 12px;
+}
+
+.paysafe-api-key {
+    background: #f6f7f7;
+    padding: 8px;
+    border-radius: 4px;
+    font-family: monospace;
+    font-size: 13px;
+    overflow: auto;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 100%;
+}
+
+.paysafe-account-select .components-base-control__field {
+    width: 110px;
+}
+
+.paysafe-text-static input[disabled] {
+    border: none !important;
+    background: transparent !important;
+    padding-left: 0 !important;
+    box-shadow: none !important;
+    cursor: default !important;
+}
+
+.paysafe-webhook-url {
+    background: #f6f7f7;
+    padding: 8px;
+    border-radius: 4px;
+    font-family: monospace;
+    font-size: 13px;
+    max-width: 100%;
+    margin-bottom: 4px;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+/* Modal widths */
+.paysafe-modal--method.components-modal__frame,
+.paysafe-modal--credentials.components-modal__frame {
+    width: 800px;
+}
+
+/* Anchor to the field container inside TextControl */
+.paysafe-private-key .components-base-control__field {
+    position: relative;
+}
+
+.paysafe-private-key .components-text-control__input {
+    padding-right: 40px !important;
+}
+
+.paysafe-eye-btn {
+    position: absolute;
+    top: 50%;
+    right: 12px;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    line-height: 1;
+    height: 20px;
+    width: 20px;
+    z-index: 2;
+}
+
+.paysafe-eye-icon {
+    font-size: 18px;
+    color: #555;
+    pointer-events: none;
+}
+
+/* Restore bigger toggle look */
+.paysafe-checkbox-row .components-form-toggle,
+.paysafe-pm-row__col--toggle .components-form-toggle {
+    transform: scale(1.1); /* enlarge the switch itself */
+}
+
+.paysafe-disabled-notice{
+    margin-top: 10px;
+}
