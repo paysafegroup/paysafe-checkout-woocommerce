@@ -1,0 +1,179 @@
+.paysafe-gateway-title {
+    width: 100%;
+}
+.paysafe-gateway-image {
+    float: none;
+    margin-top: 10px;
+    display: block;
+    height: 18px !important;
+}
+.paysafe-hosted-payment-form {
+    padding-top: 0.5em;
+}
+.paysafe-input-field {
+    border: 1px solid #e5e9ec;
+    height: 40px;
+    padding-left: 10px;
+    background-color: white;
+}
+.paysafe-input-field.optional-field {
+    display: none;
+}
+.paysafe-cc-form-label, .paysafe-general-form-label {
+    font-family: sans-serif;
+}
+.paysafe-input-field input.paysafe-input-field-input {
+    all: unset;
+    border-width: 0;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    font: inherit;
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    font-size: 16px;
+}
+.paysafe-input-field input.paysafe-input-field-input::-webkit-input-placeholder,
+.paysafe-input-field input.paysafe-input-field-input::placeholder{
+    color: #000000 !important;
+    opacity: 0.6 !important;
+}
+.paysafe-input-field input.paysafe-input-field-input:-webkit-autofill {
+    transition: background-color 9999999s
+}
+.paysafe-input-field input.paysafe-input-field-input:focus {
+    outline: none;
+}
+.paysafe-input-field input.paysafe-input-field-input[disabled]::placeholder { color: transparent; }
+.paysafe-input-field input.paysafe-input-field-input[disabled]::-webkit-input-placeholder { color:transparent; }
+.paysafe-input-field input.paysafe-input-field-input[disabled]:-moz-placeholder { color:transparent; } /* FF 4-18 */
+.paysafe-input-field input.paysafe-input-field-input[disabled]::-moz-placeholder { color:transparent; } /* FF 19+ */
+.paysafe-input-field input.paysafe-input-field-input[disabled]:-ms-input-placeholder { color:transparent; }
+
+#holderName_spacer, .paysafe-general-form-spacer {
+    margin-top: 5px;
+    font-size: 0.8em;
+    font-style: italic;
+}
+.paysafe-cc-form-exp-cvv-row .paysafe-cc-form-exp-cvv-box2 {
+    max-width: 200px;
+}
+.paysafe-cc-form-exp-cvv-row .paysafe-cc-form-exp-cvv-box3 {
+    display: none;
+}
+#cvv-verification-container .paysafe-cc-form-exp-cvv-box2 {
+    max-width: 100%;
+}
+#paysafe-google-pay {
+    width: 240px;
+    height: 55px;
+    margin: 0 auto;
+}
+#paysafe-hosted-express-product-payment-form #paysafe-google-pay {
+    margin: 0;
+}
+@media (min-width: 550px) {
+    .paysafe-gateway-title {
+        width: 95%;
+    }
+    .paysafe-gateway-image {
+        float: right;
+        margin-top: 0;
+        display: inline;
+    }
+    .paysafe-cc-form-exp-cvv-row {
+        display: flex;
+    }
+    .paysafe-cc-form-exp-cvv-row .paysafe-cc-form-exp-cvv-box1 {
+        flex: 3 1 0;
+        box-sizing: border-box;
+    }
+    .paysafe-cc-form-exp-cvv-row .paysafe-cc-form-exp-cvv-box2 {
+        flex: 2 1 0;
+        box-sizing: border-box;
+        margin-left: 1em;
+    }
+    .paysafe-cc-form-exp-cvv-row .paysafe-cc-form-exp-cvv-box3 {
+        display: block;
+        flex: 1 2 0;
+        box-sizing: border-box;
+        margin-left: 0.5em;
+    }
+    .paysafe-cc-form-exp-cvv-row .paysafe-cc-form-exp-cvv-box3 .paysafe-cc-form-cvv-image, ul.payment_methods li img.paysafe-cc-form-cvv-image {
+        margin-top: 0.8em !important;
+        height: 65px;
+    }
+    #expiryDate_spacer {
+        display: none;
+        visibility: hidden;
+        height: 0;
+        margin: 0;
+    }
+
+    #cvv-verification-container .paysafe-cc-form-exp-cvv-box1 {
+        display: none;
+    }
+    #cvv-verification-container .paysafe-cc-form-exp-cvv-box2 {
+        margin-left: 0;
+        max-width: 300px;
+    }
+    #cvv-verification-container .paysafe-cc-form-exp-cvv-row .paysafe-cc-form-exp-cvv-box3 .paysafe-cc-form-cvv-image {
+        margin-top: -0.6em !important;
+    }
+}
+
+hr.paysafe-separator {
+    width: 100%;
+    height: 1px;
+    background: #eee;
+    border: none;
+    display: block;
+}
+
+.paysafe-margin-bottom {
+    margin-bottom: 20px;
+}
+
+.paysafe-add-saved-payment-method-title {
+    margin-top: 0;
+    font-size: 120%;
+}
+
+.paysafe-w50 {
+    width: calc(50% - 10px);
+}
+
+.paysafe-left {
+    float: left;
+    margin-right: 10px;
+}
+
+.paysafe-right {
+    float: right;
+    margin-left: 10px;
+}
+
+.paysafe-cf {
+    clear: both;
+}
+
+.paysafe-form-field {
+    margin-bottom: 10px;
+}
+.payment_method_paysafe .paysafe-hosted-payment-form {
+    display: none;
+}
+.wc_payment_method.payment_method_paysafe .paysafe-hosted-payment-form .wc-block-components-checkbox__mark {
+    display: none;
+}
+.paysafe-hosted-payment-form .paysafe-error-message {
+    font-size: 0.8em;
+    color: #ff0000;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
