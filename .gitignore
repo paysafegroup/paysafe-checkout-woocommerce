@@ -1,0 +1,6 @@
+./idea
+/.idea
+/node_modules/
+/assets/js/blocks/*.js.map
+/assets/js/legacy/*.js.map
+rc.sh
